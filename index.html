@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Prince Amissah" />
+    <meta name="description" content="Prince Amissah, Web-developer, Building an E-commerce app (iPhones), HTML, CSS, JavaScript" />
+    <title>Pepzig Phones</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="store-header" role="banner">
+        <h1>Pepzig Phones</h1>
+        <p>Welcome! Please buy as much as you can. We are here to help.</p>
+    </header>
+    <main role="main">
+        <div class="product-grid" aria-label="Product list">
+            <div class="product">
+                <img src="iphone-x.jpg" alt="Front view of iPhone X" />
+                <h3>Iphone X</h3>
+                <p class="price">💰 $300</p>
+                <button type="button" aria-label="Add iPhone X to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="iphone-xr.jpg" alt="Front view of iPhone XR" />
+                <h3>Iphone Xr</h3>
+                <p class="price">💰 $400</p>
+                <button type="button" aria-label="Add iPhone XR to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="iphone-11.jpg" alt="Front view of iPhone 11" />
+                <h3>Iphone 11</h3>
+                <p class="price">💰 $500</p>
+                <button type="button" aria-label="Add iPhone 11 to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="iphone-11-pro.jpg" alt="Front view of iPhone 11 Pro" />
+                <h3>Iphone 11 Pro</h3>
+                <p class="price">💰 $600</p>
+                <button type="button" aria-label="Add iPhone 11 Pro to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="iphone-12.jpg" alt="Front view of iPhone 12" />
+                <h3>Iphone 12</h3>
+                <p class="price">💰 $750</p>
+                <button type="button" aria-label="Add iPhone 12 to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="iphone-12-pro.jpg" alt="Front view of iPhone 12 Pro" />
+                <h3>Iphone 12 Pro</h3>
+                <p class="price">💰 $900</p>
+                <button type="button" aria-label="Add iPhone 12 Pro to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <div class="badge sale">SALE</div>
+                <img src="iphone-x.jpg" alt="Front view of iPhone X" />
+                <h3>Iphone X</h3>
+                <p class="price">💰 $300</p>
+                <button type="button" aria-label="Add iPhone X on sale to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <div class="badge bestseller">Bestseller</div>
+                <img src="iphone-xr.jpg" alt="Front view of iPhone XR" />
+                <h3>Iphone Xr</h3>
+                <p class="price">💰 $400</p>
+                <button type="button" aria-label="Add best-selling iPhone XR to cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <div class="badge new">NEW</div>
+                <img src="iphone-12-pro.jpg" alt="Front view of iPhone 12 Pro" />
+                <h3>Iphone 12 Pro</h3>
+                <p class="price">💰 $900</p>
+                <button type="button" aria-label="Add new iPhone 12 Pro to cart">Add to cart</button>
+            </div>
+        </div>
+        <details class="details-container">
+            <summary>About Us</summary>
+            <p>
+                Prince Phones was established in 2020. We deal with iPhones and deliver your phone on time. Please be careful of scammers. Contact me here:
+                <a href="tel:+233531343235">+233 531 343 235</a> or
+                <a href="mailto:pepzig@gmail.com">pepzig@gmail.com</a>
+            </p>
+        </details>
+    </main>
+    <aside class="sidebar" role="complementary">
+        <h2 class="sidebar-header">Latest Update</h2>
+        <nav class="sidebar-links" aria-label="Latest updates navigation">
+            <a href="#">New Phones</a>
+            <a href="#">Iphone 13 (Coming soon)</a>
+            <a href="#">Currency: Dollar</a>
+            <a href="#">Location: Ghana (Accra)</a>
+        </nav>
+    </aside>
+    <form action="pepzigphones" method="post" aria-label="Send a message to Prince Phones">
+        <textarea name="message" id="message" placeholder="Leave a message, I will read it"></textarea>
+        <button type="submit" class="send">Send message</button>
+    </form>
+    <footer role="contentinfo">
+        &reg; <i>Pepzig Phones || 2020</i>
+    </footer>
+</body>
+</html>
