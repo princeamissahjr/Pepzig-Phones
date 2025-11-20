@@ -63,6 +63,7 @@ main {
     padding: 10px 5px;
     border-radius: 5px;
     max-width: 200px;
+    width: 20rem;
     transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -144,7 +145,7 @@ footer {
 
 .send:hover,
 button:hover {
-    background-color: #1e40af;
+    background-color: #1944d0b8;
     animation: bounce 0.5s;
     color: white;
 }
@@ -233,7 +234,7 @@ button {
     width: auto;
     min-width: 120px;
     height: 3em;
-    background-color: rgba(10, 67, 224, 0.66);
+    background-color: rgb(4, 69, 250);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
@@ -259,5 +260,8 @@ button {
     .sidebar a {
         max-width: 100%;
         margin: 10px 0;
+    }
+    .product img {
+        height: 400px;
     }
 }
