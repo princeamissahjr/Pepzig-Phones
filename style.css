@@ -236,6 +236,7 @@ button {
     height: 3em;
     background-color: rgb(4, 69, 250);
     border: none;
+    color: white;
     border-radius: 10px;
     padding: 10px 20px;
     margin: 5px;
